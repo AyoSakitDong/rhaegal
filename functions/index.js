@@ -1,8 +1,11 @@
-const functions = require('firebase-functions');
-
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });
+const functions = require("firebase-functions");
+const express = require("express");
+const app = express();
+const { auth } = require("./utils/firebaseConfig");
+const cors = require("cors");
+var { register } = require("./users/register");
+// var { login } = require("./users/login");
+app.use(cors());
+app.post("/register", register);
+// app.post("/login", login);
+exports.api = functions.region("asia-east2").https.onRequest(app);
