@@ -1,2 +1,5 @@
 functions/utils/key.js
 node_modules/
+firebase-debug.log
+functions/firebase-debug.log
+functions/utils/adminsdk.json

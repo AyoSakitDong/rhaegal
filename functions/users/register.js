@@ -12,10 +12,12 @@ exports.register = (req, res) => {
   firebase
     .auth()
     .createUserWithEmailAndPassword(newUser.email, newUser.password)
-    .then(data => {
+    .then(async data => {
       token = data.user.getIdToken();
-      userCredentials = { ...newUser, img: "noimg.jpg" };
-      db.doc(`/users/${data.user.uid}`).set(userCredentials);
+      const { password, confirmPassword, ...restUser } = newUser;
+      userCredentials = { ...restUser, img: "noimg.jpg" };
+      console.log(userCredentials);
+      await db.doc(`/users/${data.user.uid}`).set(userCredentials);
       return token;
     })
     .then(token => {
