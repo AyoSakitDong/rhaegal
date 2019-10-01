@@ -5,7 +5,8 @@ const sdkkey = require("./adminsdk.json");
 firebase.initializeApp(firebaseConfig);
 admin.initializeApp({
   credential: admin.credential.cert(sdkkey),
-  databaseURL: "https://ayosakitdong.firebaseio.com"
+  databaseURL: "https://ayosakitdong.firebaseio.com",
+  storageBucket: firebaseConfig.storageBucket
 });
 const db = admin.firestore();
 module.exports = {

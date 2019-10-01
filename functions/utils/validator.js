@@ -7,7 +7,7 @@ const isEmpty = inp => {
   if (inp == "") return true;
   else return false;
 };
-exports.validateSignupData = data => {
+const validateSignupData = data => {
   let errors = {};
   if (isEmpty(data.nama)) errors.nama = "Must not be empty";
   if (isEmpty(data.email)) {
@@ -26,7 +26,7 @@ exports.validateSignupData = data => {
   };
 };
 
-exports.validateLoginData = data => {
+const validateLoginData = data => {
   let errors = {};
 
   if (isEmpty(data.email)) errors.email = "Must not be empty";
@@ -36,4 +36,10 @@ exports.validateLoginData = data => {
     errors,
     valid: Object.keys(errors).length === 0 ? true : false
   };
+};
+module.exports = {
+  isEmail,
+  isEmpty,
+  validateLoginData,
+  validateSignupData
 };
