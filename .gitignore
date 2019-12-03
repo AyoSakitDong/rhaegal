@@ -6,3 +6,4 @@ functions/utils/adminsdk.json
 yarn.lock
 .gitignore
 functions/firebase-debug.log
+functions/firebase-debug.log
