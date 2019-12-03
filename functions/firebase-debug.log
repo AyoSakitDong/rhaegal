@@ -713,3 +713,33 @@
 [debug] [2019-12-03T09:03:46.186Z] [runtime-status] Ephemeral server used! {}
 [debug] [2019-12-03T09:03:46.477Z] [runtime-status] Ephemeral server survived. {}
 [info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-03T09:09:40.267Z] Accepted request GET /ayosakitdong/asia-east2/api/obat --> api
+[debug] [2019-12-03T09:09:40.912Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-03T09:09:40.914Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T09:09:40.916Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T09:09:40.918Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:09:40.919Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:09:41.962Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-12-03T09:09:41.962Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-03T09:09:41.963Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-12-03T09:09:41.969Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\13648"}
+[debug] [2019-12-03T09:09:41.970Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\13648"}
+[debug] [2019-12-03T09:09:41.978Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-12-03T09:09:42.404Z] [runtime-status] Ephemeral server survived. {}
+[debug] [2019-12-03T09:09:42.959Z] Accepted request GET /ayosakitdong/asia-east2/api/obat --> api
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-03T09:09:43.505Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-03T09:09:43.506Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T09:09:43.508Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T09:09:43.510Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:09:43.511Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:09:44.207Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-12-03T09:09:44.207Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-03T09:09:44.208Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-12-03T09:09:44.215Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\1424"}
+[debug] [2019-12-03T09:09:44.216Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\1424"}
+[debug] [2019-12-03T09:09:44.221Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-12-03T09:09:44.443Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s

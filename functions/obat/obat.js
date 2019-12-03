@@ -23,6 +23,9 @@ exports.getObat = (req, res) => {
     .where("idObat", "==", req.params.idObat)
     .get()
     .then(snapshot => {
+      if (snapshot.empty) {
+        return res.status(404).json({ error: "not found" });
+      }
       result = [];
       snapshot.forEach(doc => {
         result.push(doc.data());
