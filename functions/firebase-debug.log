@@ -1,69 +1,27 @@
-[debug] [2019-12-03T06:50:48.963Z] ----------------------------------------------------------------------
-[debug] [2019-12-03T06:50:48.965Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anvaq\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2019-12-03T06:50:48.965Z] CLI Version:   7.4.0
-[debug] [2019-12-03T06:50:48.966Z] Platform:      win32
-[debug] [2019-12-03T06:50:48.966Z] Node Version:  v12.2.0
-[debug] [2019-12-03T06:50:48.966Z] Time:          Tue Dec 03 2019 13:50:48 GMT+0700 (Western Indonesia Time)
-[debug] [2019-12-03T06:50:48.966Z] ----------------------------------------------------------------------
+[debug] [2019-12-03T08:21:55.882Z] ----------------------------------------------------------------------
+[debug] [2019-12-03T08:21:55.885Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anvaq\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-12-03T08:21:55.885Z] CLI Version:   7.4.0
+[debug] [2019-12-03T08:21:55.885Z] Platform:      win32
+[debug] [2019-12-03T08:21:55.885Z] Node Version:  v12.2.0
+[debug] [2019-12-03T08:21:55.886Z] Time:          Tue Dec 03 2019 15:21:55 GMT+0700 (Western Indonesia Time)
+[debug] [2019-12-03T08:21:55.886Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2019-12-03T06:50:49.001Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-12-03T06:50:49.003Z] > authorizing via signed-in user
-[debug] [2019-12-03T06:50:49.003Z] [iam] checking project ayosakitdong for permissions ["firebase.projects.get"]
-[debug] [2019-12-03T06:50:49.006Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2019-12-03T06:50:49.006Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2019-12-03T08:21:56.004Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-03T08:21:56.005Z] > authorizing via signed-in user
+[debug] [2019-12-03T08:21:56.006Z] [iam] checking project ayosakitdong for permissions ["firebase.projects.get"]
+[debug] [2019-12-03T08:21:56.007Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-03T08:21:56.007Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2019-12-03T06:50:49.351Z] <<< HTTP RESPONSE 200
-[debug] [2019-12-03T06:50:49.381Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ayosakitdong:testIamPermissions  
+[debug] [2019-12-03T08:21:56.192Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-03T08:21:56.252Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ayosakitdong:testIamPermissions  
 
-[debug] [2019-12-03T06:50:50.759Z] <<< HTTP RESPONSE 200
-[debug] [2019-12-03T06:50:50.759Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ayosakitdong  
+[debug] [2019-12-03T08:21:57.509Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-03T08:21:57.510Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ayosakitdong  
  
-[debug] [2019-12-03T06:50:51.347Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-03T08:21:57.876Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal'...
 [info] 
 [warn] !  Your requested "node" version "8" doesn't match your global version "12"
 [info] +  functions: Emulator started at http://localhost:5000
 [info] i  functions: Watching "C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions" for Cloud Functions...
-[debug] [2019-12-03T06:50:52.112Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[debug] [2019-12-03T06:50:52.112Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-12-03T06:50:52.115Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-12-03T06:50:52.116Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-12-03T06:50:52.117Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[warn] !  Error: Cannot find module './obat/getAllObat'
-Require stack:
-- C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js
-- C:\Users\anvaq\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js
-    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:610:15)
-    at Function.Module._load (internal/modules/cjs/loader.js:526:27)
-    at Module.require (internal/modules/cjs/loader.js:666:19)
-    at require (internal/modules/cjs/helpers.js:16:16)
-    at Object.<anonymous> (C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js:8:22)
-    at Module._compile (internal/modules/cjs/loader.js:759:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:770:10)
-    at Module.load (internal/modules/cjs/loader.js:628:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
-    at Module.require (internal/modules/cjs/loader.js:666:19)
-[warn] !  We were unable to load your functions code. (see above)
-[debug] [2019-12-03T06:51:18.604Z] File C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js changed, reloading triggers
-[debug] [2019-12-03T06:51:21.633Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[debug] [2019-12-03T06:51:21.633Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-12-03T06:51:21.658Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-12-03T06:51:21.661Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-12-03T06:51:21.661Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[warn] !  Error: Cannot find module './obat/getAllObat'
-Require stack:
-- C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js
-- C:\Users\anvaq\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js
-    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:610:15)
-    at Function.Module._load (internal/modules/cjs/loader.js:526:27)
-    at Module.require (internal/modules/cjs/loader.js:666:19)
-    at require (internal/modules/cjs/helpers.js:16:16)
-    at Object.<anonymous> (C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js:8:22)
-    at Module._compile (internal/modules/cjs/loader.js:759:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:770:10)
-    at Module.load (internal/modules/cjs/loader.js:628:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
-    at Module.require (internal/modules/cjs/loader.js:666:19)
-[warn] !  We were unable to load your functions code. (see above)
-[debug] [2019-12-03T06:51:34.421Z] File C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js changed, reloading triggers

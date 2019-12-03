@@ -32,8 +32,8 @@ exports.addObat = (req, res) => {
         break;
       case "harga":
         isEmpty(val)
-          ? (errors.deskripsi = "Must not be empty")
-          : (data.deskripsi = val);
+          ? (errors.harga = "Must not be empty")
+          : (data.harga = val);
         break;
     }
   });
