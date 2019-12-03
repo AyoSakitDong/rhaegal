@@ -18,3 +18,18 @@ exports.getAllObat = (req, res) => {
       res.status(500).json({ error: err.code });
     });
 };
+exports.getObat = (req, res) => {
+  db.collection("obat")
+    .where("idObat", "==", req.params.idObat)
+    .get()
+    .then(snapshot => {
+      result = [];
+      snapshot.forEach(doc => {
+        result.push(doc.data());
+      });
+      res.status(200).json(result);
+    })
+    .catch(err => {
+      res.status(500).json({ error: err.code });
+    });
+};

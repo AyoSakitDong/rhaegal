@@ -656,3 +656,60 @@
 [debug] [2019-12-03T08:51:42.367Z] [runtime-status] Ephemeral server used! {}
 [debug] [2019-12-03T08:51:42.654Z] [runtime-status] Ephemeral server survived. {}
 [info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-03T08:58:08.315Z] File C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\obat\obat.js changed, reloading triggers
+[debug] [2019-12-03T08:58:09.715Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[debug] [2019-12-03T08:58:09.716Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T08:58:09.718Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T08:58:09.720Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T08:58:09.721Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:00:43.129Z] Accepted request GET /ayosakitdong/asia-east2/api/obat --> api
+[debug] [2019-12-03T09:00:43.684Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-03T09:00:43.686Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T09:00:43.691Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T09:00:43.693Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:00:43.694Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:00:44.473Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-12-03T09:00:44.473Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-03T09:00:44.473Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-12-03T09:00:44.478Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\4364"}
+[debug] [2019-12-03T09:00:44.479Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\4364"}
+[debug] [2019-12-03T09:00:44.485Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-12-03T09:00:44.807Z] [runtime-status] Ephemeral server survived. {}
+[debug] [2019-12-03T09:00:45.392Z] Accepted request GET /ayosakitdong/asia-east2/api/obat --> api
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-03T09:00:45.948Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-03T09:00:45.950Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T09:00:45.954Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T09:00:45.956Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:00:45.957Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:00:46.940Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-12-03T09:00:46.940Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-03T09:00:46.940Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-12-03T09:00:46.944Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\16536"}
+[debug] [2019-12-03T09:00:46.945Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\16536"}
+[debug] [2019-12-03T09:00:46.949Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-12-03T09:00:47.206Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-03T09:03:21.825Z] File C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js changed, reloading triggers
+[debug] [2019-12-03T09:03:23.207Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[debug] [2019-12-03T09:03:23.207Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T09:03:23.213Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T09:03:23.217Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:03:23.218Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:03:44.997Z] Accepted request GET /ayosakitdong/asia-east2/api/obat/Ob8J7FnjJDTJ1Em6EKbW --> api
+[debug] [2019-12-03T09:03:45.438Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-03T09:03:45.440Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T09:03:45.443Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T09:03:45.445Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:03:45.446Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T09:03:46.175Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-12-03T09:03:46.175Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-03T09:03:46.175Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-12-03T09:03:46.180Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\17048"}
+[debug] [2019-12-03T09:03:46.181Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\17048"}
+[debug] [2019-12-03T09:03:46.186Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-12-03T09:03:46.477Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
