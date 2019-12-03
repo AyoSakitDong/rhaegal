@@ -1,113 +1,69 @@
-[debug] [2019-10-01T05:29:33.704Z] ----------------------------------------------------------------------
-[debug] [2019-10-01T05:29:33.706Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anvaq\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2019-10-01T05:29:33.706Z] CLI Version:   7.4.0
-[debug] [2019-10-01T05:29:33.706Z] Platform:      win32
-[debug] [2019-10-01T05:29:33.706Z] Node Version:  v12.2.0
-[debug] [2019-10-01T05:29:33.707Z] Time:          Tue Oct 01 2019 12:29:33 GMT+0700 (Western Indonesia Time)
-[debug] [2019-10-01T05:29:33.707Z] ----------------------------------------------------------------------
+[debug] [2019-12-03T06:50:48.963Z] ----------------------------------------------------------------------
+[debug] [2019-12-03T06:50:48.965Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anvaq\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-12-03T06:50:48.965Z] CLI Version:   7.4.0
+[debug] [2019-12-03T06:50:48.966Z] Platform:      win32
+[debug] [2019-12-03T06:50:48.966Z] Node Version:  v12.2.0
+[debug] [2019-12-03T06:50:48.966Z] Time:          Tue Dec 03 2019 13:50:48 GMT+0700 (Western Indonesia Time)
+[debug] [2019-12-03T06:50:48.966Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2019-10-01T05:29:33.714Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-10-01T05:29:33.715Z] > authorizing via signed-in user
-[debug] [2019-10-01T05:29:33.715Z] [iam] checking project ayosakitdong for permissions ["firebase.projects.get"]
-[debug] [2019-10-01T05:29:33.716Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ayosakitdong:testIamPermissions  
+[debug] [2019-12-03T06:50:49.001Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-03T06:50:49.003Z] > authorizing via signed-in user
+[debug] [2019-12-03T06:50:49.003Z] [iam] checking project ayosakitdong for permissions ["firebase.projects.get"]
+[debug] [2019-12-03T06:50:49.006Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-03T06:50:49.006Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-03T06:50:49.351Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-03T06:50:49.381Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ayosakitdong:testIamPermissions  
 
-[debug] [2019-10-01T05:29:36.759Z] <<< HTTP RESPONSE 200
-[debug] [2019-10-01T05:29:36.760Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ayosakitdong  
+[debug] [2019-12-03T06:50:50.759Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-03T06:50:50.759Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ayosakitdong  
  
-[debug] [2019-10-01T05:29:38.521Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-03T06:50:51.347Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal'...
 [info] 
 [warn] !  Your requested "node" version "8" doesn't match your global version "12"
 [info] +  functions: Emulator started at http://localhost:5000
 [info] i  functions: Watching "C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions" for Cloud Functions...
-[debug] [2019-10-01T05:29:39.216Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[debug] [2019-10-01T05:29:39.216Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-10-01T05:29:39.220Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-10-01T05:29:39.222Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:29:39.223Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[info] +  functions[api]: http function initialized (http://localhost:5000/ayosakitdong/asia-east2/api).
-[debug] [2019-10-01T05:29:42.281Z] Accepted request POST /ayosakitdong/asia-east2/api/admin/addObat --> api
-[debug] [2019-10-01T05:29:42.653Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[info] i  functions: Beginning execution of "api"
-[debug] [2019-10-01T05:29:42.655Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-10-01T05:29:42.656Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-10-01T05:29:42.658Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:29:42.660Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:29:43.228Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
-[debug] [2019-10-01T05:29:43.229Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
-[debug] [2019-10-01T05:29:43.229Z] [runtime-status] Running api in mode HTTPS {}
-[debug] [2019-10-01T05:29:43.234Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\10204"}
-[debug] [2019-10-01T05:29:43.235Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\10204"}
-[debug] [2019-10-01T05:29:43.242Z] [runtime-status] Ephemeral server used! {}
-[info] >  Checking Authorization
-[debug] [2019-10-01T05:29:43.299Z] [runtime-status] Ephemeral server survived. {}
-[info] >  loggedIn
-[info] i  functions: Finished "api" in ~12s
-[debug] [2019-10-01T05:31:55.664Z] File C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\admin\kelolaObat.js changed, reloading triggers
-[debug] [2019-10-01T05:31:57.214Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[debug] [2019-10-01T05:31:57.214Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-10-01T05:31:57.218Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-10-01T05:31:57.220Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:31:57.221Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:33:00.832Z] File C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\admin\kelolaObat.js changed, reloading triggers
-[debug] [2019-10-01T05:33:02.520Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[debug] [2019-10-01T05:33:02.520Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-10-01T05:33:02.525Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-10-01T05:33:02.526Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:33:02.527Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:33:04.609Z] Accepted request POST /ayosakitdong/asia-east2/api/admin/addObat --> api
-[debug] [2019-10-01T05:33:05.162Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[info] i  functions: Beginning execution of "api"
-[debug] [2019-10-01T05:33:05.164Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-10-01T05:33:05.166Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-10-01T05:33:05.167Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:33:05.168Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:33:05.995Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
-[debug] [2019-10-01T05:33:05.995Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
-[debug] [2019-10-01T05:33:05.995Z] [runtime-status] Running api in mode HTTPS {}
-[debug] [2019-10-01T05:33:06.000Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\3888"}
-[debug] [2019-10-01T05:33:06.001Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\3888"}
-[debug] [2019-10-01T05:33:06.008Z] [runtime-status] Ephemeral server used! {}
-[info] >  Checking Authorization
-[debug] [2019-10-01T05:33:06.069Z] [runtime-status] Ephemeral server survived. {}
-[info] >  loggedIn
-[info] i  functions: Finished "api" in ~16s
-[debug] [2019-10-01T05:57:31.413Z] Accepted request POST /ayosakitdong/asia-east2/api/login --> api
-[debug] [2019-10-01T05:57:32.676Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[info] i  functions: Beginning execution of "api"
-[debug] [2019-10-01T05:57:32.682Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-10-01T05:57:32.690Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-10-01T05:57:32.697Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:57:32.701Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T05:57:34.749Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
-[debug] [2019-10-01T05:57:34.749Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
-[debug] [2019-10-01T05:57:34.750Z] [runtime-status] Running api in mode HTTPS {}
-[debug] [2019-10-01T05:57:34.767Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\18696"}
-[debug] [2019-10-01T05:57:34.770Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\18696"}
-[debug] [2019-10-01T05:57:34.826Z] [runtime-status] Ephemeral server used! {}
-[debug] [2019-10-01T05:57:34.907Z] [runtime-status] Ephemeral server survived. {}
-[info] >  [M [Error]: The password is invalid or the user does not have a password.] {
-[info] >    code: 'auth/wrong-password',
-[info] >    message: 'The password is invalid or the user does not have a password.'
-[info] >  }
-[info] i  functions: Finished "api" in ~2s
-[debug] [2019-10-01T06:04:40.589Z] Accepted request POST /ayosakitdong/asia-east2/api/login --> api
-[debug] [2019-10-01T06:04:42.090Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
-[info] i  functions: Beginning execution of "api"
-[debug] [2019-10-01T06:06:31.514Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
-[debug] [2019-10-01T06:06:31.515Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
-[debug] [2019-10-01T06:06:31.516Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T06:06:31.516Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
-[debug] [2019-10-01T06:06:31.518Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
-[debug] [2019-10-01T06:06:31.519Z] [runtime-status]  {"regions":["asia-east2"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
-[debug] [2019-10-01T06:06:31.520Z] [runtime-status] Running api in mode HTTPS {}
-[debug] [2019-10-01T06:06:31.520Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\18896"}
-[debug] [2019-10-01T06:06:31.524Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\18896"}
-[debug] [2019-10-01T06:06:31.587Z] [runtime-status] Ephemeral server used! {}
-[debug] [2019-10-01T06:06:31.670Z] [runtime-status] Ephemeral server survived. {}
-[info] >  [M [Error]: The password is invalid or the user does not have a password.] {
-[info] >    code: 'auth/wrong-password',
-[info] >    message: 'The password is invalid or the user does not have a password.'
-[info] >  }
-[info] i  functions: Finished "api" in ~109s
+[debug] [2019-12-03T06:50:52.112Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[debug] [2019-12-03T06:50:52.112Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T06:50:52.115Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T06:50:52.116Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T06:50:52.117Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Cannot find module './obat/getAllObat'
+Require stack:
+- C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js
+- C:\Users\anvaq\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:610:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:526:27)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js:8:22)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-03T06:51:18.604Z] File C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js changed, reloading triggers
+[debug] [2019-12-03T06:51:21.633Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions","node_version":"12.2.0"}
+[debug] [2019-12-03T06:51:21.633Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-03T06:51:21.658Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-03T06:51:21.661Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-03T06:51:21.661Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\anvaq\\Documents\\GitHub\\IMPAL\\rhaegal\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Cannot find module './obat/getAllObat'
+Require stack:
+- C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js
+- C:\Users\anvaq\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:610:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:526:27)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js:8:22)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-03T06:51:34.421Z] File C:\Users\anvaq\Documents\GitHub\IMPAL\rhaegal\functions\index.js changed, reloading triggers
