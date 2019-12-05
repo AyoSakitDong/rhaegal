@@ -23,10 +23,9 @@ exports.register = (req, res) => {
     .then(token => {
       return res.status(201).json({
         token,
-        user: {
-          nama: newUser.nama,
-          email: newUser.email
-        }
+        nama: newUser.nama,
+        email: newUser.email,
+        img: "noimg.jpg"
       });
     })
     .catch(err => {
