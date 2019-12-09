@@ -7,3 +7,4 @@ yarn.lock
 .gitignore
 functions/firebase-debug.log
 functions/firebase-debug.log
+package-lock.json
